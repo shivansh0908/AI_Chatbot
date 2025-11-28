@@ -1,0 +1,27 @@
+fastapi
+uvicorn
+python-dotenv
+pydantic
+
+# OpenAI new SDK (required for api.py)
+openai>=1.51.0
+
+# Tokenization (if retriever uses token counting)
+tiktoken
+
+# LangChain components
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-openai
+
+# Vector store support
+faiss-cpu
+
+# Embeddings helpers
+numpy
+scikit-learn
+
+# Utilities
+tqdm
